@@ -1,0 +1,22 @@
+Syntax: 
+
+    try
+    {
+        block of code that monitors error
+    }
+
+    catch(ExceptiionType1 e)
+    {
+        Exception handler for ExceptiionType1
+    }
+
+    catch (ExceptiionType2 e)
+    {
+        Exceptiion handler for ExceptiionType2
+    }
+
+    finally 
+    {
+        Block of code to be executed after try block ends
+    }
+
