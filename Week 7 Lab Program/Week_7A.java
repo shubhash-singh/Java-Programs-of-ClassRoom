@@ -5,7 +5,7 @@ interface A1
 }
 
 
-public class interface_Lambda {
+public class Week_7A {
 
     public static void main(String[] args) {
         A1 obj = (S) -> System.out.println(S+ " Yes Papa");
