@@ -8,7 +8,7 @@
 
 /*
  * The throws keyword is used to declare an exception.
- * This gives an inforamtion to the progarm that there might be an exceptation 
+ * This gives an inforamtion to the progarm that there might be an exception 
  * so its better to be prepared woth try and catch block.
  */
  
