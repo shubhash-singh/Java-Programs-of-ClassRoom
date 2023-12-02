@@ -7,3 +7,31 @@
  * 
  */
 
+class InvalidAgeException extends Exception
+{
+    public InvalidAgeException(String str)
+    {
+        super(str);
+    }
+}
+
+public class Custom_Exceptation {
+    static void Validiator(int age) throws InvalidAgeException
+    {
+        if (age<18)
+        {
+            throw new InvalidAgeException ("Age is not Valid");
+        }
+        else
+        {
+            System.out.println("Welcome \n Cast your vote");
+        }
+    }
+    public static void main(String[] args) {
+        try {
+            Validiator(13);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+}
