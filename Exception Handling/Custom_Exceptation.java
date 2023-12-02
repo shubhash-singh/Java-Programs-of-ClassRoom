@@ -28,9 +28,12 @@ public class Custom_Exceptation {
         }
     }
     public static void main(String[] args) {
-        try {
+        try 
+        {
             Validiator(13);
-        } catch (Exception e) {
+        } 
+        catch (InvalidAgeException e)
+        {
             System.out.println(e);
         }
     }
