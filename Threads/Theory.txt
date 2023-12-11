@@ -1,0 +1,10 @@
+There are two ways to create a threads in java
+1.  By ingeriting the Thread class
+2. By inolementing runnable interface
+
+Firsy method to Create a thread using threads class
+
+    1. Create a class as a child of threadclass
+    2. Override the run() method with code thatis to be executedby the thread.run() method should be public
+    3. Create the object of the newly created class in the main() method
+    4. Call the start () method on the object created in above class
