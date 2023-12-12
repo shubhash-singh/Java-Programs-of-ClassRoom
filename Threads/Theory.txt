@@ -1,5 +1,5 @@
 There are two ways to create a threads in java
-1.  By ingeriting the Thread class
+1. By ingeriting the Thread class
 2. By inolementing runnable interface
 
 Firsy method to Create a thread using threads class
