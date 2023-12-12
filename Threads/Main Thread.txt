@@ -1,0 +1,5 @@
+* Main Thread is the most important part of any application
+* Whenever we run an application the main thread is executed
+* We can create one or more main child threads through main threads and start them
+* THe main thread is the last thread to terminates 
+* JVM starts the main threads
