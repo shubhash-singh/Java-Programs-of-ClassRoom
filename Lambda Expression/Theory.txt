@@ -1,0 +1,3 @@
+Lambda Expression in which the code ion right side of the lambda operator consists of a block of code that can 
+contain more than one statement. This type of lambda function is called a block body.
+And this expression is called lambda function.
