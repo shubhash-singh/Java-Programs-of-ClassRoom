@@ -1,0 +1,4 @@
+When a Lambda expression uses a local variable from its enclosing scope , a special situation is created that is
+referenced to as a variable capture.
+
+In this case, a lambda expression may only use the local variable that are effectively final.
