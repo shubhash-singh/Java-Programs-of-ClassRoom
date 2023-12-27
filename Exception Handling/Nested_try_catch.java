@@ -14,7 +14,7 @@ public class Nested_try_catch {
                 if (a>1)
                 {
                     int c[] = {1};
-                    c[42] = 99;
+                    c[42] = 100;
                 }
             } catch (Exception e) {
 
