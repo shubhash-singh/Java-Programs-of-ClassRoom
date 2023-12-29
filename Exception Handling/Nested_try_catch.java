@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class Nested_try_catch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        try {
+        try 
+        {
             int a = sc.nextInt();
             int b = 42/a;
             System.out.println(b);
